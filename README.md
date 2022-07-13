@@ -1,4 +1,11 @@
-<<<<<<< HEAD
+run
+    php artisan key:generate
+    php artisan migrate
+    php artisan db:seed
+    pgp artisan serv
+    
+
+
 # laravel_library_project_sweeft_digital
 App can - Register,Login,Roles,Create Edit Delete - Books and Authors.
 =======
