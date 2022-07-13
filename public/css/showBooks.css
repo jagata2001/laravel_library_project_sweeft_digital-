@@ -1,0 +1,105 @@
+.main{
+  padding: 10px;
+}
+ul{
+  list-style-type: none;
+}
+.message{
+  margin-left: 8px;
+  font-size: 21px;
+  color: #59689b;
+}
+.container{
+  display: flex;
+  padding: 8px 10px;
+  background-color: #eeefef;
+  border-radius: 8px;
+  margin-bottom: 4px;
+}
+.book{
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+}
+.book .book-title{
+  font-size: 21px;
+  font-weight: 600;
+}
+.book .additional-data{
+  display: flex;
+  margin-left: 8px;
+}
+.book .additional-data p{
+  font-size: 16px;
+  color: #3e3d3d;
+}
+.book .additional-data p:last-child{
+  margin-left: 8px;
+}
+.book .authors-data{
+  margin-left: 8px;
+  margin-top:4px;
+}
+.book .authors-data p{
+  font-size: 16px;
+  font-weight: 600;
+  color: #3e3d3d;
+}
+.book .authors-data .authors{
+  display: flex;
+
+}
+.book .authors-data .authors p{
+  margin-left: 6px;
+  font-size: 14px;
+  font-weight: normal;
+}
+.actions{
+  margin-left: 8px;
+}
+.actions input{
+  border:none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 6px;
+  padding: 6px 8px;
+  font-size: 15px;
+  background-color:#778edffe;
+  color:white;
+  transition: background-color 0.4s;
+}
+.actions input:hover{
+  background-color:#617cdbfe;
+}
+.actions button{
+  border:none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 6px;
+  padding: 6px 8px;
+  font-size: 15px;
+  background-color:#59b988fe;
+  color:white;
+  transition: background-color 0.4s;
+}
+.actions button:hover{
+  background-color:#4fa579fe;
+}
+.next-previous{
+  display: flex;
+  justify-content: center;
+}
+.next-previous button{
+  border:none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 6px;
+  padding: 6px 8px;
+  font-size: 15px;
+  background-color:#55609d;
+  color:white;
+  transition: background-color 0.4s;
+}
+.next-previous button:hover{
+  background-color:#4a548b;
+}
