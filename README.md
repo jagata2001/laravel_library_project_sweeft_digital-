@@ -1,8 +1,8 @@
-run
-    php artisan key:generate
-    php artisan migrate
-    php artisan db:seed
-    pgp artisan serv
+
+php artisan key:generate
+php artisan migrate
+php artisan db:seed
+pgp artisan serv
     
 
 
